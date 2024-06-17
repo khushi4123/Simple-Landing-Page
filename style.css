@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+   font-family: sans-serif;
+}
+.container{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("image.avif");
+    position: relative;
+   font-family: sans-serif;
+   width:100%;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    
+    width:100%;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+}
+.logo
+{
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.menu ul{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu li:hover{
+   text-decoration: underline indianred;
+}
+
+li{
+    list-style: none;
+    color: white;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.register
+{
+    margin-top: 40px;
+    padding-right: 20px;
+}
+.register a{
+text-decoration: none;
+color:white;
+padding:10px 10px;
+font-size:20px;
+background: indianred;
+border-radius: 10px;
+font-size: 16px;
+}
+.register a:hover{
+    background-color: transparent;
+    border: 1px solid indianred;
+    transition:0.3s ease-in;
+}
+.contain{
+    max-width: 650px;
+    position: absolute;
+    top:20em;
+    left: 30em;
+    color: white;
+    text-align: center;
+    
+}
+.contain h3{
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+.contain h1{
+    font-size: 2.8em;
+}
+.contain a{
+    letter-spacing: 3px;
+    text-decoration: none;
+    background: rgb(222, 55, 55);
+    color: white;
+    padding:8px;
+}
+.contain a:hover{
+    background-color: transparent;
+    border: 1px solid indianred;
+    transition:0.3s ease-in;
+}
+
+/*offer*/
+.offer{
+    width:100;
+    background-color: rgba(0,0,0,0.1);
+   padding:3%;
+}
+.boffer{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("image7.jpg");
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 15px 5px gray;
+    width:60%;
+    height: 80vh;
+    position: relative;
+    margin:auto;   
+    padding-bottom: 4%;
+}
+.waves{
+    position:absolute;
+  width: 100%;
+  left:0;
+}
+svg{
+    margin-top: 15%;
+}
+.mid{
+    text-align: center;
+    padding:8% 4%;
+}
+.offer h3,h1{
+    color: white;
+    font-size: 42px;
+     padding-bottom: 8px;
+}
+.offer h3{
+    font-size: 25px;
+}
+.offer button{
+    background-color: rgb(205, 53, 53);
+    padding:10px;
+    margin: 5px;
+    border:1px solid rgb(219, 66, 66);
+    border-radius: 10px;
+    color:white;
+}
+.offer button:hover{
+background-color: rgb(215, 22, 22);
+}
+
+
+/*About us*/
+.about{
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("image4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.about1 {
+    padding:15%;
+}
+.about1 h1,p{
+    text-align: center;
+    color: white;
+}
+ .about h1{
+    font-size: 52px;
+}
+.about2{
+    font-size: 18px;
+    background-color: white;
+}
+.about2 p{
+    margin: 6%;
+    padding: 2%;
+    color: black;
+    text-align: justify;
+}
+/*contact*/
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: linear-gradient(gray,white);
+}
+.cont{
+    width:60%;
+    margin: auto;
+    padding: 10%;
+}
+.contact1{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding-left: 10%;
+   background-color: white;
+   box-shadow: 10px 10px 5px gray;
+}
+.info{
+ width: 40%;
+ margin: auto;
+}
+form{
+    width:40%;
+}
+input,textarea{
+    width: 20em;
+    padding: 8px;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: 1px lightgray;
+   
+}
+textarea{
+    color:gray;
+}
+.contact1 img{
+    width: 80%;
+    margin: 5px;
+    
+}
+.info button{
+ 
+ margin: 5px ;
+ padding: 4px 15px;
+ background-color:rgb(221, 44, 44);
+ border-radius: 8px;
+ border: 1px solid black ;
+}
+.info button:hover{
+background-color: transparent;
+}
+.button{
+    display:flex;
+    justify-content:space-between;
+    margin: 2px 5px;
+}
+
